@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #eaeaea;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.current-weather-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: none;
+}
+
+.current-weather-card h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+.error-message{
+  color: red;
+  font-size: 25px;
+  margin-top: 5px;
+  display: none;
+}
+.orignal-message{
+  color: red;
+  font-size: 25px;
+  margin-top: 5px;
+  display: block;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.weather-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 160px;
+  margin-right: 20px;
+}
+.weather-card h2 {
+  margin-top: 0;
+  color: #555;
+}
+.weather-card .weather-date {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.weather-card .temperature {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.weather-card .wind .humidity {
+  margin-top: 5px;
+  color: #666;
+}
+.weather-card .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.search-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+.search-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.last-searched {
+  text-align: left;
+  margin-top: 20px;
+}
+.last-searched button {
+  display: block;
+  margin-bottom: 5px;
+}
