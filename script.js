@@ -5,12 +5,12 @@ let lastFiveSearched = {0:"", 1: "", 2: ""};
 
 function search() {
   // check in local storage if there are any cities recently searched
-  if (localStorage.getItem("lastFiveSearched")) {
-    lastFiveSearched = JSON.parse(localStorage.getItem("lastFiveSearched"))
+  // if (localStorage.getItem("lastFiveSearched")) {
+  //   lastFiveSearched = JSON.parse(localStorage.getItem("lastFiveSearched"))
 
-    console.log(lastFiveSearched[0])
+  //   console.log(lastFiveSearched[0])
 
-  }
+  // }
 
   // event listner if the search button has been clicked
   $("#search-button").click(function (e) {
@@ -84,6 +84,8 @@ function search() {
 
           prev += 8;
         }
+
+        $(".container").css("display", "flex");
 
         // add the searched city to local storage
         localStorage.setItem("lastFiveSearched", searchedCity);
