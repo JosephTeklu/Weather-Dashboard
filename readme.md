@@ -10,7 +10,7 @@
  - [Questions](#questions) 
  - [License](#license)
 ## Installation 
-  Clone the repo to your machine and open the index.html page to use or head over to the github pages lined here ().
+  Clone the repo to your machine and open the index.html page to use or head over to the github pages lined here (https://josephteklu.github.io/Weather-Dashboard/).
 ## Usage 
   Type in the name of a city and hit the search button to see the current day's weather and the forecast for 5 days.
 ## Contributing 
